@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagenes</title>
+    <style>
+        body {
+            font-family: poppins; color:aliceblue
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #005813;
+        }
+        .gallery {
+            display: flex;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 150px;
+            height: 300px;
+            object-fit: cover;
+            border: 0px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <a href="C:\Users\aleca\Desktop\CURSO WEB\ENTREGAS UD. 2\ACT_3\images\image1.webp" target="_self">
+            <img src="C:\Users\aleca\Desktop\CURSO WEB\ENTREGAS UD. 2\ACT_3\images\image1.webp/thumb_image1.jpg" alt="Imagen 1">
+        </a>
+        <a href="C:\Users\aleca\Desktop\CURSO WEB\ENTREGAS UD. 2\ACT_3\images\image2.webp" target="_self">
+            <img src="C:\Users\aleca\Desktop\CURSO WEB\ENTREGAS UD. 2\ACT_3\images\image2.webp/thumb_image2.jpg" alt="Imagen 2">
+        </a>
+        <a href="C:\Users\aleca\Desktop\CURSO WEB\ENTREGAS UD. 2\ACT_3\images\image3.webp" target="_self">
+            <img src="C:\Users\aleca\Desktop\CURSO WEB\ENTREGAS UD. 2\ACT_3\images\image3.webp" alt="Imagen 3">
+        </a>
+        <a href="C:\Users\aleca\Desktop\CURSO WEB\ENTREGAS UD. 2\ACT_3\images\image4.webp" target="_self">
+            <img src="C:\Users\aleca\Desktop\CURSO WEB\ENTREGAS UD. 2\ACT_3\images\image4.webp" alt="Imagen 4">
+        </a>
+    </div>
+</body>
+</html>
