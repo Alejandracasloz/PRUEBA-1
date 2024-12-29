@@ -31,17 +31,17 @@
 </head>
 <body>
     <div class="gallery">
-        <a href="images\image1.webp" target="_self">
-            <img src="images\image1.webp/thumb_image1.jpg" alt="Imagen 1">
+        <a href="image1.webp" target="_self">
+            <img src="image1.webp/thumb_image1.jpg" alt="Imagen 1">
         </a>
-        <a href="images\image2.webp" target="_self">
-            <img src="images\image2.webp/thumb_image2.jpg" alt="Imagen 2">
+        <a href="image2.webp" target="_self">
+            <img src="image2.webp/thumb_image2.jpg" alt="Imagen 2">
         </a>
-        <a href="images\image3.webp" target="_self">
-            <img src="images\image3.webp" alt="Imagen 3">
+        <a href="image3.webp" target="_self">
+            <img src="image3.webp" alt="Imagen 3">
         </a>
-        <a href="images\image4.webp" target="_self">
-            <img src="images\image4.webp" alt="Imagen 4">
+        <a href="image4.webp" target="_self">
+            <img src="image4.webp" alt="Imagen 4">
         </a>
     </div>
 </body>
